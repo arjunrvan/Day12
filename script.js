@@ -91,15 +91,13 @@ function taskRes () {
     parentDiv.querySelectorAll('button')[0].remove();
 
     parentDiv.querySelector('h3').style.textDecoration = 'none';
-    
 }
 
 var timing;
-var doneTypingInterval = 5000;
+var doneTypingInterval = 2000;
 
 function taskEdit () {
     var parentDiv = this.parentNode;
-    
 
     var editInput = document.createElement('input');
     editInput.placeholder =  parentDiv.querySelector('h3').innerHTML;
