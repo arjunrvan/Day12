@@ -48,7 +48,7 @@ h2 {
     padding: 0 20px;
 }
 
-.task-btn, .del-btn {
+.task-btn, .del-btn, .res-btn {
     background-color: black;
     color: white;
     width: 80px;
