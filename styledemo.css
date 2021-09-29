@@ -1,0 +1,32 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+#container {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+form {
+    margin: 10px 0;
+}
+
+#calc {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-holder {
+    
+}
